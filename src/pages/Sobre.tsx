@@ -8,17 +8,17 @@ const values = [
   {
     icon: Eye,
     title: "Visão",
-    desc: "Ser referência em automação residencial no Brasil, tornando a tecnologia invisível e acessível para residências de alto padrão.",
+    desc: "Ser referência no mercado residencial e corporativo, sendo reconhecida com uma empresa de inovação e eficiência tecnológica.",
   },
   {
     icon: Target,
     title: "Missão",
-    desc: "Transformar residências em experiências inteligentes, entregando soluções tecnológicas que elevam o conforto, a segurança e a estética.",
+    desc: "Trazer conforto, praticidade e segurança para ambientes familiares e corporativos com soluções contemporâneas em tecnologia.",
   },
   {
     icon: Heart,
     title: "Valores",
-    desc: "Excelência, inovação contínua, respeito à arquitetura, compromisso com o cliente e tecnologia como ferramenta de bem-estar.",
+    desc: "Paixão pelo trabalho, respeito total as pessoas e excelência em tudo que fazemos e espírito inovador.",
   },
 ];
 
@@ -43,19 +43,18 @@ const Sobre = () => {
               <h2 className="font-display text-2xl md:text-3xl font-medium text-foreground mb-8">Nossa História</h2>
               <div className="space-y-6 font-body text-muted-foreground leading-relaxed">
                 <p>
-                  A Home3 Tecnologia nasceu da convicção de que a tecnologia residencial deve servir ao estilo de vida, 
-                  não competir com ele. Fundada por profissionais apaixonados por arquitetura e engenharia, 
-                  nossa empresa se dedica a criar experiências residenciais onde a tecnologia é sentida, não vista.
+                  A Home3 Tecnologia nasceu com o propósito de transformar a forma como as pessoas vivem e interagem com a tecnologia.
                 </p>
                 <p>
-                  Ao longo de mais de uma década, desenvolvemos uma metodologia única que começa pela escuta atenta 
-                  do cliente e do arquiteto, passa pelo projeto detalhado de infraestrutura e culmina na entrega 
-                  de uma casa que responde intuitivamente às necessidades de quem a habita.
+                 Com um olhar inovador e estratégico, a empresa foi criada a partir da visão de que a tecnologia deve ser simples, acessível e, acima de tudo, melhorar a qualidade de vida das pessoas. Assim surgiu uma equipe comprometida em unir tecnologia, conforto, segurança e bem-estar em cada projeto desenvolvido.
                 </p>
                 <p>
-                  Trabalhamos em parceria com os melhores escritórios de arquitetura e design de interiores do país, 
-                  garantindo que cada solução tecnológica se integre perfeitamente ao projeto estético da residência.
+                  Desde o início, a Home3 se posiciona de forma plural e sem fronteiras, levando soluções inteligentes para diversos segmentos. Atuamos com automação, redes, áudio, vídeo, segurança e controle de acesso, sempre buscando otimizar processos e facilitar o uso da tecnologia no dia a dia.
                 </p>
+                <p>Acreditamos que o futuro já chegou. Por isso, trabalhamos diariamente para colocar tecnologia avançada a serviço das pessoas, criando ambientes mais inteligentes, eficientes e conectados.
+                  </p>
+                  <p>Home3 Tecnologia</p> 
+                  <p>Nossa prioridade é realizar o seu sonho.</p>
               </div>
             </div>
 
@@ -63,10 +62,10 @@ const Sobre = () => {
               <p className="font-display text-xs uppercase tracking-[0.3em] text-primary mb-8">Expertise</p>
               <div className="space-y-8">
                 {[
-                  { label: "Automação Residencial", years: "10+ anos" },
+                  { label: "Automação Residencial", years: "7+ anos" },
                   { label: "Projetos de Iluminação", years: "200+ projetos" },
-                  { label: "Áudio & Home Theater", years: "Certificação THX" },
-                  { label: "Infraestrutura de Rede", years: "Parceiro Ubiquiti" },
+                  { label: "Áudio & Home Theater", years: "Dolby Atmos" },
+                  { label: "Infraestrutura de Rede", years: "Ubiquiti Academy Certification" },
                 ].map((item, i) => (
                   <motion.div
                     key={item.label}
@@ -111,7 +110,9 @@ const Sobre = () => {
       {/* CTA */}
       <AnimatedSection className="py-24 md:py-32">
         <div className="container text-center">
-          <h2 className="font-display text-3xl md:text-4xl font-light text-foreground mb-6">
+          <h2 className="font-display text-60xl md:text-6xl font-light text-foreground mb-6">
+            <p className="text-primary"> Nossa Prioridade é realizar seu sonho.</p>
+            <p> </p>
             Vamos construir algo <span className="font-semibold">extraordinário</span>
           </h2>
           <Link to="/contato">

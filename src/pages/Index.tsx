@@ -18,7 +18,7 @@ const services = [
 
 const differentials = [
   { number: "200+", label: "Projetos entregues" },
-  { number: "10+", label: "Anos de experiência" },
+  { number: "7+", label: "Anos de experiência" },
   { number: "100%", label: "Satisfação dos clientes" },
 
 ];

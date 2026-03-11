@@ -12,9 +12,7 @@ const Footer = () => {
               <img src={logo} alt="Home3 Logo" className="h-8 md:h-10" />
             </h3>
             <p className="font-body text-background/60 max-w-md text-sm leading-relaxed">
-              Transformamos residências em experiências inteligentes. 
-              Tecnologia invisível que se integra perfeitamente ao seu estilo de vida.
-            </p>
+              Nossa Prioridade é realizar seu sonho!</p>
           </div>
 
           <div>
@@ -41,13 +39,13 @@ const Footer = () => {
           <div>
             <h4 className="font-display text-xs uppercase tracking-widest mb-6 text-background/40">Contato</h4>
             <div className="flex flex-col gap-3 text-sm text-background/60">
-              <a href="mailto:contato@home3tecnologia.com.br" className="hover:text-primary transition-colors">
-                contato@home3tecnologia.com.br
+              <a href="mailto:Home3tecnologia@gmail.com" className="hover:text-primary transition-colors">
+                Home3tecnologia@gmail.com
               </a>
               <a href="https://wa.me/55833142-1219" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                 (83) 3142-1219
               </a>
-              <p>João Pessoa, PB</p>
+              <p>João Pessoa,PB</p>
             </div>
           </div>
         </div>

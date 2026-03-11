@@ -23,8 +23,8 @@ const Contato = () => {
     <main className="pt-20">
       <AnimatedSection className="py-20 md:py-28">
         <div className="container">
-          <p className="font-display text-xs uppercase tracking-[0.3em] text-primary mb-4">Contato</p>
-          <h1 className="font-display text-4xl md:text-6xl font-light text-foreground max-w-3xl leading-tight">
+          <p className="font-display text-2xl uppercase tracking-[0.3em] text-primary mb-8">Contato</p>
+          <h1 className="font-display text-4xl md:text-30xl font-light text-foreground max-w-3xl leading-tight">
             Vamos conversar sobre{" "}
             <span className="font-semibold">seu projeto</span>
           </h1>
