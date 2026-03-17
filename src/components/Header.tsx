@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import { Menu, X, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 import logo from "./LogoHOME3.png"; // Substitua pelo caminho do seu logo
@@ -44,6 +44,12 @@ const Header = () => {
           <Link to="/contato">
             <Button variant="brass" size="sm">Solicitar Orçamento</Button>
           </Link>
+          <Link to="/login">
+            <Button variant="outline" size="sm" className="ml-2 gap-2">
+              <User size={16} />
+              Área do Cliente
+            </Button>
+          </Link>
         </nav>
 
         {/* Mobile Toggle */}
@@ -82,6 +88,12 @@ const Header = () => {
               <Link to="/contato" onClick={() => setMobileOpen(false)}>
                 <Button variant="brass" size="default" className="w-full mt-2">
                   Solicitar Orçamento
+                </Button>
+              </Link>
+              <Link to="/login" onClick={() => setMobileOpen(false)}>
+                <Button variant="outline" size="default" className="w-full mt-2 gap-2">
+                  <User size={16} />
+                  Área do Cliente
                 </Button>
               </Link>
             </nav>
