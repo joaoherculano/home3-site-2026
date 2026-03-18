@@ -41,7 +41,7 @@ const Login = () => {
       if (user.role === "ADMIN") {
         navigate("/admin");
       } else {
-        navigate("/dashboard");
+        navigate("/clientePage");
       }
     }
   }, [isAuthenticated, user, navigate]);

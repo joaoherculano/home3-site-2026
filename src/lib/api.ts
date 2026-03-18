@@ -47,6 +47,8 @@ export interface FolderContents {
   folder: DriveFolder;
   files: DriveFile[];
   subfolders: DriveFolder[];
+  iconLink?: string;
+  thumbnailLink?: string;
 }
 
 export interface ClientWithDetails extends User {
